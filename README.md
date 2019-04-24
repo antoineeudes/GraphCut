@@ -31,7 +31,7 @@ Then run
 docker run --rm -it \
    -e DISPLAY=XXX.XXX.X.XXX:0 \
    --workdir=/code \
-   --volume="/Users/antoine/Documents/Ponts/2A/TRIVA/GraphCut:/code" \
+   --volume="/path/to/this/repo:/code" \
    --volume="/etc/group:/etc/group:ro" \
    --volume="/etc/passwd:/etc/passwd:ro" \
    --volume="/etc/shadow:/etc/shadow:ro" \
