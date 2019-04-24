@@ -28,6 +28,9 @@ plt.subplot(133)
 plt.imshow(binary_restore(I2,70),cmap='gray')
 plt.show()
 
+# def P0(x):
+
+
 # ------------------------------------------------- #
 
 class Scribbler:
