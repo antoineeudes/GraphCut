@@ -1,5 +1,6 @@
 # Installation
 ```
+docker build -t graphcut .
 brew install socat
 brew install xquartz
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
